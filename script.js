@@ -4,14 +4,28 @@ const across = [
     {q: "Rim davlatining boshqaruv shakli", a: "RESPUBLIKA"},
     {q: "Gladiatorlar jang qiladigan joy", a: "KOLIZEY"},
     {q: "Rim askarlari", a: "LEGION"},
-    {q: "Rim markaziy maydoni", a: "FORUM"}
+    {q: "Rim markaziy maydoni", a: "FORUM"},
+    {q: "Boy tabaqa vakillari", a: "PATRISIY"},
+    {q: "Qadimgi Rim uyi", a: "DOMUS"},
+    {q: "Rim yozuv tizimi", a: "LOTIN"},
+    {q: "Qullar mehnatiga asoslangan tizim", a: "QULLIK"},
+    {q: "Rimdagi xalq yig‘ini", a: "KOMITSIYA"},
+    {q: "Harbiy boshliq", a: "GENERAL"},
+    {q: "Rim yo‘llari nimadan qurilgan", a: "TOSH"},
+    {q: "Savdo qilinadigan joy", a: "BOZOR"}
 ];
 
 const down = [
-    {q: "Sezar ismi", a: "YULIY"},
-    {q: "Oddiy xalq", a: "PLEBEY"},
+    {q: "Mashhur sarkarda Sezar ismi", a: "YULIY"},
+    {q: "Oddiy xalq vakillari", a: "PLEBEY"},
     {q: "Rim poytaxti", a: "RIM"},
-    {q: "Rim imperatori", a: "IMPERATOR"}
+    {q: "Rim imperatori unvoni", a: "IMPERATOR"},
+    {q: "Rim qonunlari yozilgan jadval", a: "QONUN"},
+    {q: "Rimda suv olib keluvchi inshoot", a: "AKVEDUK"},
+    {q: "Rim armiyasi bo‘linmasi", a: "KOHORTA"},
+    {q: "Rim xudolaridan biri", a: "YUPITER"},
+    {q: "Rimda qullar ishlatilgan joy", a: "FERMA"},
+    {q: "Rim askarining quroli", a: "QILICH"}
 ];
 
 const allWords = [...across, ...down];
