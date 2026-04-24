@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: radial-gradient(circle at top, #0f172a, #020617);
+    color: #e2e8f0;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+    text-shadow: 0 0 10px #38bdf8;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(18, 34px);
+    gap: 6px;
+    justify-content: center;
+    margin: 30px auto;
+    padding: 20px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 20px;
+}
+
+.cell {
+    width: 34px;
+    height: 34px;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.selected {
+    background: yellow;
+    color: black;
+}
+
+.found {
+    background: #22c55e;
+    color: white;
+}
+
+.questions {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.questions div {
+    background: rgba(255,255,255,0.05);
+    padding: 20px;
+    border-radius: 15px;
+    width: 300px;
+}
+
+li.done {
+    color: #22c55e;
+    text-decoration: line-through;
+}
